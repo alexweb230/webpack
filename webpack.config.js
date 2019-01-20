@@ -4,7 +4,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const UglifyjsWebpackPlugin = require('uglifyjs-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
-const ImageminWebpackPlugin = require('imagemin-webpack-plugin');
+const ImageminWebpackPlugin = require('imagemin-webpack-plugin').default;
 
 var isProdaction = (process.env.NODE_ENV === "production");
 
@@ -92,6 +92,14 @@ if(isProdaction){
         new UglifyjsWebpackPlugin(
             {
                 sourceMap: true    
+            }
+        ),
+        new ImageminWebpackPlugin({
+            test: /\.(png|jpe?g|gif|svg)$/i
+        }),
+        new webpack.LoaderOptionsPlugin(
+            {
+                minimize: true
             }
         ),
     )

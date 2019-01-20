@@ -1,10 +1,1 @@
-body {
-  background: red; }
-  body div {
-    border: 1px solid; }
-  body .home {
-    background-image: url(../img/backgrounds/1.jpg);
-    width: 50px;
-    height: 50px; }
-
-/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zY3NzL21haW4uc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGVBQWU7RUFEbkI7SUFHUSxpQkFBaUI7RUFIekI7SUFNUSwrQ0FBaUQ7SUFDakQsV0FBVTtJQUNWLFlBQVkiLCJmaWxlIjoiLi9jc3MvbWFpbi5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJib2R5e1xyXG4gICAgYmFja2dyb3VuZDogcmVkO1xyXG4gICAgZGl2e1xyXG4gICAgICAgIGJvcmRlcjogMXB4IHNvbGlkO1xyXG4gICAgfVxyXG4gICAgLmhvbWV7XHJcbiAgICAgICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKCcuLi9pbWcvYmFja2dyb3VuZHMvMS5qcGcnKTtcclxuICAgICAgICB3aWR0aDo1MHB4O1xyXG4gICAgICAgIGhlaWdodDogNTBweDtcclxuICAgIH1cclxufSJdLCJzb3VyY2VSb290IjoiIn0=*/
+body{background:red}body div{border:1px solid}body .home{background-image:url(../img/backgrounds/1.jpg);width:50px;height:50px}
